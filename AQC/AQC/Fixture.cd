@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AQC.Implement.BDDFixture" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AADAAAAAAAoEAIAAAEAABAQACIBAgAABAAEAACDBggI=</HashCode>
+      <FileName>BAFixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.AFixture" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAAoEAIgAAEAABAwACIBAgAABAAEAACDBggI=</HashCode>
+      <FileName>AFixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.WebDriverFactory">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.Helper">
+    <Position X="9.75" Y="25.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAEBAIAAEAAAAAIAAAAAOAAAQAAABAAAA=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.KeyboardManager">
+    <Position X="16.5" Y="30.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAQABBAAAACAAABIAAABAAAAAQAAABIAAA=</HashCode>
+      <FileName>KeyboardManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.FindManager">
+    <Position X="14.25" Y="25.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>FindManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.Log.Log4NetAdaper">
+    <Position X="6" Y="40" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAgAAAAAAAAAAAAAAIAAJAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Log\Log4NetAdaper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.Log.LogMaster">
+    <Position X="7.75" Y="40" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Log\LogMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AQC.MouseManager">
+    <Position X="4.25" Y="25.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAABABAAAAAgAAIAAAAAAAAAQIAQBIggA=</HashCode>
+      <FileName>MouseManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.NavigationManager">
+    <Position X="4" Y="30.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAQAAAERARAAAAQRAAMAAAAAAlAAQEAkBIAAA=</HashCode>
+      <FileName>NavigationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.WaitManager">
+    <Position X="10" Y="30.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAAABAAABAAAAAAIAQAAAIAAAgAAABCAAA=</HashCode>
+      <FileName>WaitManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.Page.BasePage">
+    <Position X="5.25" Y="10" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EgQEAEAAQAAQERBZABECRxgBMAQJ1AOlAKwsA0BKgsA=</HashCode>
+      <FileName>Page\BasePage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AQC.Page.BlankPage">
+    <Position X="9" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Page\BlankPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AQC.Interface.IFixture">
+    <Position X="4.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEgEAAAAAAAABAAAAIgQAAABAAAAAAgBgAA=</HashCode>
+      <FileName>Interface\IFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.IBDDFixture">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IBDDFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.IWebDriverFactory">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IWebDriverFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.IHelper">
+    <Position X="7.5" Y="25.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEBAIAAEAAAAAAAAAAAGAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.IKeyboardManager">
+    <Position X="13.25" Y="30.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABAAAACAAABAAAABAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Interface\IKeyboardManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.IFindManager">
+    <Position X="12.25" Y="25.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Interface\IFindManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.ILog">
+    <Position X="4.25" Y="40" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAgAAAAAAAAAAAAAAIAAJAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Interface\ILog.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.IMouseManager">
+    <Position X="1.25" Y="25.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAIAQAIggA=</HashCode>
+      <FileName>Interface\IMouseManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.INavigationManager">
+    <Position X="1.25" Y="30.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAEQARAAAAQRAAEAAAAAAlAAAEAkAIAAA=</HashCode>
+      <FileName>Interface\INavigationManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.IWaitManager">
+    <Position X="7" Y="30.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAABAAAAAAAAQAAAIAAAgAAAACAAA=</HashCode>
+      <FileName>Interface\IWaitManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Interface.ISetting">
+    <Position X="1.5" Y="40" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAQAAAAAIAAAAAAAAAAAAAAAiAQAAAAAAAAA=</HashCode>
+      <FileName>Interface\ISetting.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AQC.Page.IPage">
+    <Position X="1.75" Y="10" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EgQAAEAAQAAQERBZABECRxABMAQJxAOlAKgMA0AKgsA=</HashCode>
+      <FileName>Page\IPage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

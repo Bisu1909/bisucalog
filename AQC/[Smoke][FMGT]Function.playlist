@@ -1,0 +1,4 @@
+<Playlist Version="1.0">
+<Add Test="FunctionsManagementTest.Features.CreateFunctionFeature.UserCanCreateNewFunction" />
+<Add Test="FunctionsManagementTest.Features.CreateFunctionFeature.UserCanValidateThatFunctionIsCreatedSuccessfully" />
+<Add Test="FunctionsManagementTest.Features.CreateFunctionFeature.UserCanEditFunction" /></Playlist>
